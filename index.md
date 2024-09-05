@@ -5,6 +5,7 @@ description: Home Page
 image: /images/mario_animation.png
 hide: true
 ---
+My new test xx
 
 <!-- Liquid:  statements -->
 
