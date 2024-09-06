@@ -37,7 +37,7 @@ permalink: /about/
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var around_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "0/08/Flag_of_Boston.svg", "greeting": "Hi", "description": "Boaton - 5 years"},
+        {"flag": "0/08/Flag_of_Boston.svg", "greeting": "Hi", "description": "Boston - 5 years"},
         {"flag": "a/af/Flag_of_San_Francisco.svg", "greeting": "Golden Gate Bridge", "description": "San Francisco - 1 week"},
         {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 weeks"},
     ]; 
