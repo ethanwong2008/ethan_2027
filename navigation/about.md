@@ -75,8 +75,6 @@ permalink: /about/
 
 ### Journey through Life
 
-Here is what I did at those places
-
 - I'm class of 2027(At the moment I am 15 years old)
 - My favorite sports to play are baseball and football
 - I have 5 members in my family; My dad, mom, sister, brother, and me
@@ -84,4 +82,9 @@ Here is what I did at those places
 - I have traveled the world playing baseball; My favorite place I played was in Hawaii
 - My favorite subject is math
 - My hobbies are playing sports and playing videogames
+
+### My Family and Culture
+- My whole family is Chinese
+- I have family is San Francisco and Boston and I visit them as much as possible
+-  
 
