@@ -1,5 +1,5 @@
 ---
 layout: base
-title: Student Home 
+title: Coding Interests
 description: Home Page
 ---
