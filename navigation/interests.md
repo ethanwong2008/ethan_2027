@@ -4,4 +4,4 @@ title: Coding Interests
 description: Home Page
 ---
 
-### My Interests 
+### My Gaming and Coding Interests
