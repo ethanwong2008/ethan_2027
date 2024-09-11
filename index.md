@@ -213,7 +213,9 @@ My journey starts here.
 
 
 - Sample of bullets
+  
 ```markdown
+
 - Introduction to concepts and requirements by the teacher
 - Project-based learning with teacher support, performing Agile/Scrum development
 - Coding, frontend, backend, DevOps, version control and algorithmic thinking
