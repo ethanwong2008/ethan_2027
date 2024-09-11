@@ -200,20 +200,20 @@ My journey starts here.
 
 - This text below is something called Markdown. This is a heading, Inside of code is called scaffolding
 
-...markdown
+```markdown
 ## Investing in Your Technical Future XXXYYY
-...
+```
 
 -This is emphasis
 
-...
+```
 
 > Explore the Computer Science Pathway at Del Norte High School and invest in your technical skills. All Del Norte CompSci classes are designed to provide a real-world development experience. Class time includes tech talks (lectures), peer collaboration, communication with teachers, critical thinking while coding, and creativity in projects. Grading is focused on time invested, participation with peers, and engagement in learning.
-...
+```
 
 
 - Sample of bullets
-...markdown
+```markdown
 - Introduction to concepts and requirements by the teacher
 - Project-based learning with teacher support, performing Agile/Scrum development
 - Coding, frontend, backend, DevOps, version control and algorithmic thinking
@@ -221,7 +221,7 @@ My journey starts here.
 - Performing team work, team communication and collaboration, peer reviews/grading
 - Focus on technical communications through project presentations and student led teaching
 - Grade are on projects, learnt concepts, and live reviews between student(s) and teacher
-...
+```
 
 
 Johnny Fun
