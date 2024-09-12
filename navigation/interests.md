@@ -61,10 +61,11 @@ description: Home Page
 
 <!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
-        repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
+        repo="nighthawkcoders/portfolio_2025"
         issue-term="title"
         label="blogpost-comment"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
+-->
