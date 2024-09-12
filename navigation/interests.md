@@ -35,17 +35,25 @@ description: Home Page
   
 ## Links:
 
-Markdown link syntax: [link text](URL).
-HTML link syntax: <a href="URL">link text</a>.
-Changing the Theme:
-_config.yml: File where themes are defined for GitHub Pages.
-Theme Selection: By commenting/uncommenting lines in _config.yml, you can switch themes. Jekyll supports remote themes and you can test various ones like "midnight" or "dracula".
-Theme Customization: Minimal CSS customization is encouraged to maintain a consistent look across the site. Custom themes should be tested across several pages.
-GitHub Pages Theme:
-Consistency: Themes ensure uniformity in layout, colors, and fonts across a web application.
-Customization: Avoid extensive CSS customization as it can be time-consuming. Instead, use the theme’s predefined styles.
-Remote Themes: These can be added via the _config.yml file and modified with appropriate customizations.
-Minima Theme Customization:
-SASS Usage: Custom styles can be added to custom-styles.scss within the Minima theme.
-Popular Themes: Dracula for dark mode, Leaf, and Hacker are commonly used themes.
-Customization Tips: Custom styles using SASS can help fine-tune the look and feel of the website without extensive CSS knowledge.
+- Markdown link syntax: [link text](URL).
+- HTML link syntax: <a href="URL">link text</a>.
+
+
+## Changing the Theme:
+
+- _config.yml: File where themes are defined for GitHub Pages.
+- Theme Selection: By commenting/uncommenting lines in _config.yml, you can switch themes. Jekyll supports remote themes and you can test various ones like "midnight" or "dracula".
+- Theme Customization: Minimal CSS customization is encouraged to maintain a consistent look across the site. Custom themes should be tested across several pages.
+
+  
+## GitHub Pages Theme:
+
+- Consistency: Themes ensure uniformity in layout, colors, and fonts across a web application.
+- Customization: Avoid extensive CSS customization as it can be time-consuming. Instead, use the theme’s predefined styles.
+- Remote Themes: These can be added via the _config.yml file and modified with appropriate customizations.
+
+  
+## Minima Theme Customization:
+- SASS Usage: Custom styles can be added to custom-styles.scss within the Minima theme.
+- Popular Themes: Dracula for dark mode, Leaf, and Hacker are commonly used themes.
+- Customization Tips: Custom styles using SASS can help fine-tune the look and feel of the website without extensive CSS knowledge.
