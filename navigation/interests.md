@@ -58,3 +58,13 @@ description: Home Page
 - SASS Usage: Custom styles can be added to custom-styles.scss within the Minima theme.
 - Popular Themes: Dracula for dark mode, Leaf, and Hacker are commonly used themes.
 - Customization Tips: Custom styles using SASS can help fine-tune the look and feel of the website without extensive CSS knowledge.
+
+<!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
