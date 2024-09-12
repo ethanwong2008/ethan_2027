@@ -54,6 +54,7 @@ description: Home Page
 
   
 ### Minima Theme Customization:
+
 - SASS Usage: Custom styles can be added to custom-styles.scss within the Minima theme.
 - Popular Themes: Dracula for dark mode, Leaf, and Hacker are commonly used themes.
 - Customization Tips: Custom styles using SASS can help fine-tune the look and feel of the website without extensive CSS knowledge.
