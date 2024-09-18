@@ -225,8 +225,23 @@ My journey starts here.
 - Grade are on projects, learnt concepts, and live reviews between student(s) and teacher
 ```
 
+%%html
 
-Johnny Fun
-![Johnny]()
+<h3>HTML: This is a Heading</h3>
+<p>This is a paragraph.</p>
+
+<a href="https://myapps.classlink.com/home">Visit W3Schools</a>
+
+![baseball](https://www.google.com/imgres?q=baseball&imgurl=https%3A%2F%2Fcdn.britannica.com%2F87%2F237587-050-8A4B9F08%2FShohei-Ohtani-Los-Angeles-Angels-pitcher-baseball-player-2022.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fsports%2Fbaseball&docid=_3ehwnI6Q8xuQM&tbnid=6WP7w2sMkUbp6M&vet=12ahUKEwj95IXKsM2IAxW6HDQIHfvuMy8QM3oECCYQAA..i&w=1600&h=1084&hcb=2&ved=2ahUKEwj95IXKsM2IAxW6HDQIHfvuMy8QM3oECCYQAA&safe=active&ssui=on)
 
 
+
+<!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="nighthawkcoders/portfolio_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
