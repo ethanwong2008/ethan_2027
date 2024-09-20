@@ -230,11 +230,43 @@ My journey starts here.
 <h3>HTML: This is a Heading</h3>
 <p>This is a paragraph.</p>
 
-<a href="https://myapps.classlink.com/home">Visit W3Schools</a>
+<a href="https://myapps.classlink.com/home">My Plan</a>
 
-![baseball](https://www.google.com/imgres?q=baseball&imgurl=https%3A%2F%2Fcdn.britannica.com%2F87%2F237587-050-8A4B9F08%2FShohei-Ohtani-Los-Angeles-Angels-pitcher-baseball-player-2022.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fsports%2Fbaseball&docid=_3ehwnI6Q8xuQM&tbnid=6WP7w2sMkUbp6M&vet=12ahUKEwj95IXKsM2IAxW6HDQIHfvuMy8QM3oECCYQAA..i&w=1600&h=1084&hcb=2&ved=2ahUKEwj95IXKsM2IAxW6HDQIHfvuMy8QM3oECCYQAA&safe=active&ssui=on)
+![baseball][https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_lg_2x/f_auto/primary/xtn2ssecfhdlb9tgonnx] 
 
+<img alt="baseball" src="https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_lg_2x/f_auto/primary/xtn2ssecfhdlb9tgonnx" width="100" height="200">
 
+<a href="a href=">link">link text</a> 
+
+**Bolded Text in HTML**
+<strong>Bolded Text in HTML</strong>
+*Italic Text in Markdown*
+<i>Italic Text in HTML</i>
+<p> This is a paragraph in HTML markdown does not have these following formats</p>
+<button>some button text</button>
+
+<p>text here<p>
+<button><a href="https://www.perfectgame.org/Players/Playerprofile.aspx?ID=836018">Big Sun</a></button>
+<div>
+<button><a href="https://www.youtube.com/watch?v=jNZBUGLbvOw">Lakers</a>
+<div>
+<button><a href="https://sites.google.com/site/populardoodlegames/doodle-baseball">Google Baseball</a>
+</div>
+<p>insert text here</p>
+
+<!-- first information -->
+<div>
+    <!-- notice how tags can be put INSIDE eachother -->
+    <p>This is the first paragarph of section 1</p>
+    <p>This is the second paragraph of section 1</p>
+</div>
+
+<!-- second information -->
+<div>
+    <!-- notice how tags can be put INSIDE eachother -->
+    <p>This is the first paragarph of section 2</p>
+    <p>This is the second paragraph of section 2</p>
+</div>
 
 <!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
@@ -245,3 +277,4 @@ My journey starts here.
         crossorigin="anonymous"
         async>
 </script>
+

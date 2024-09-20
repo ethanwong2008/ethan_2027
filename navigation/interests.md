@@ -5,7 +5,7 @@ description: Home Page
 ---
 
 ## My Gaming and Coding Interests
-
+- My favorite game is Brawl Stars. Brawl Stars is a very popular game because many people picked it up during scholl including me. I love playing Brawl Stars with my friends every chance that I get. The game is so popular, there are professional Brawl Stars players around the world. Brawl Stars is a very versitile game because you can play different game mode such as brawl ball, showdown, ranked, etc. 
 
 ## Markdown Notes
 
@@ -69,3 +69,13 @@ description: Home Page
         async>
 </script>
 -->
+
+<!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="nighthawkcoders/portfolio_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
