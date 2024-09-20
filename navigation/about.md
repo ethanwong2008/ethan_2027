@@ -89,7 +89,7 @@ permalink: /about/
 
 <!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
-        repo="nighthawkcoders/portfolio_2025"
+        repo="ethanwong2008/ethan_2027"
         issue-term="title"
         label="blogpost-comment"
         theme="github-light"
