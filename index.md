@@ -225,8 +225,56 @@ My journey starts here.
 - Grade are on projects, learnt concepts, and live reviews between student(s) and teacher
 ```
 
+%%html
 
-Johnny Fun
-![Johnny]()
+<h3>HTML: This is a Heading</h3>
+<p>This is a paragraph.</p>
 
+<a href="https://myapps.classlink.com/home">My Plan</a>
+
+![baseball][https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_lg_2x/f_auto/primary/xtn2ssecfhdlb9tgonnx] 
+
+<img alt="baseball" src="https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_lg_2x/f_auto/primary/xtn2ssecfhdlb9tgonnx" width="100" height="200">
+
+<a href="a href=">link">link text</a> 
+
+**Bolded Text in HTML**
+<strong>Bolded Text in HTML</strong>
+*Italic Text in Markdown*
+<i>Italic Text in HTML</i>
+<p> This is a paragraph in HTML markdown does not have these following formats</p>
+<button>some button text</button>
+
+<p>text here<p>
+<button><a href="https://www.perfectgame.org/Players/Playerprofile.aspx?ID=836018">Big Sun</a></button>
+<div>
+<button><a href="https://www.youtube.com/watch?v=jNZBUGLbvOw">Lakers</a>
+<div>
+<button><a href="https://sites.google.com/site/populardoodlegames/doodle-baseball">Google Baseball</a>
+</div>
+<p>insert text here</p>
+
+<!-- first information -->
+<div>
+    <!-- notice how tags can be put INSIDE eachother -->
+    <p>This is the first paragarph of section 1</p>
+    <p>This is the second paragraph of section 1</p>
+</div>
+
+<!-- second information -->
+<div>
+    <!-- notice how tags can be put INSIDE eachother -->
+    <p>This is the first paragarph of section 2</p>
+    <p>This is the second paragraph of section 2</p>
+</div>
+
+<!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="nighthawkcoders/portfolio_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
