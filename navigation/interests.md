@@ -5,7 +5,8 @@ description: Home Page
 ---
 
 ## My Gaming and Coding Interests
-- My favorite game is Brawl Stars. Brawl Stars is a very popular game because many people picked it up during scholl including me. I love playing Brawl Stars with my friends every chance that I get. The game is so popular, there are professional Brawl Stars players around the world. Brawl Stars is a very versitile game because you can play different game mode such as brawl ball, showdown, ranked, etc. 
+
+- My favorite game is Brawl Stars. Brawl Stars is a very popular game because many people picked it up during scholl including me. I love playing Brawl Stars with my friends every chance that I get. The game is so popular, there are professional Brawl Stars players around the world. Brawl Stars is a very versitile game because you can play different game mode such as brawl ball, showdown, ranked, etc. The mechanics of the game are very simple becasue you just have a attack button, super button, and a moving button. There are other button like for hypercharge and gadget button. These buttons are accessable for everybody because you need to be a certain level to have these functions. 
 
 ## Markdown Notes
 
