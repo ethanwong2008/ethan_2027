@@ -1,3 +1,4 @@
+
 title: Nighthawk Pages 
 description: "Class of 2025"
 owner_name: John Mortensen
@@ -23,6 +24,6 @@ header_pages:
   - navigation/blog.md
   - navigation/search.md
   - navigation/about.md
-  - README4YML.md
-  - navigation/interests.md
+  - README4YML.md  
+  - navigation/interests.md   
   - navigation/rpg.md
