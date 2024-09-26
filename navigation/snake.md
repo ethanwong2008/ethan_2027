@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: base
 title: Snake
 search_exclude: true
 permalink: /snake/
 ---
-
+{% include nav/home.html %}
 
 <style>
 
@@ -73,7 +73,7 @@ permalink: /snake/
 
 <div class="container">
     <header class="pb-3 mb-4 border-bottom border-primary text-dark">
-        <p class="fs-4">Snake score: <span id="score_value">0</span></p>
+        <p class="fs-4">Score: <span id="score_value">0</span></p>
     </header>
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
@@ -147,6 +147,10 @@ permalink: /snake/
         let food = {x: 0, y: 0};
         let score;
         let wall;
+        let appleImage = new Image();
+        appleImage.src = '{{site.baseurl}}/images/apple.png'; // Replace with the path to your apple image
+        const appleWidth = 20; // Set the desired width
+        const appleHeight = 20; // Set the desired height
         /* Display Control */
         /////////////////////////////////////////////////////////////
         // 0 for the game
@@ -277,7 +281,7 @@ permalink: /snake/
                 activeDot(snake[i].x, snake[i].y);
             }
             // Paint food
-            activeDot(food.x, food.y);
+             ctx.drawImage(appleImage, food.x * BLOCK, food.y * BLOCK, BLOCK, BLOCK);
             // Debug
             //document.getElementById("debug").innerHTML = snake_dir + " " + snake_next_dir + " " + snake[0].x + " " + snake[0].y;
             // Recursive call after speed delay, déjà vu
