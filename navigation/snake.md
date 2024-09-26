@@ -1,5 +1,5 @@
 ---
-layout: snake
+layout: post
 title: Snake
 search_exclude: true
 permalink: /snake/

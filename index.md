@@ -232,7 +232,7 @@ My journey starts here.
 
 <a href="https://myapps.classlink.com/home">My Plan</a>
 
-![baseball][https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_lg_2x/f_auto/primary/xtn2ssecfhdlb9tgonnx] 
+<img src="images/frontend/othani.jpg"/>
 
 <img alt="baseball" src="https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_lg_2x/f_auto/primary/xtn2ssecfhdlb9tgonnx" width="100" height="200">
 
