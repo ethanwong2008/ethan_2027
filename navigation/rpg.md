@@ -39,4 +39,11 @@ permalink: /rpg/
 
     // Start game engine
     GameControl.start(assets);
+
+    // Background music
+    const bgMusic = new Audio('{{site.baseurl}}/assets/audio/backgroundmusic.mp3');
+    bgMusic.loop = true;  // Set music to loop
+    bgMusic.volume = 0.5; // Optional: Set volume to 50%
+    bgMusic.play();       // Play the music when the game starts
+    
 </script>
