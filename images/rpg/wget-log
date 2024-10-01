@@ -1,0 +1,13 @@
+Will not apply HSTS. The HSTS database must be a regular and non-world-writable file.
+ERROR: could not open HSTS store at '/home/kasm-user/.wget-hsts'. HSTS will be disabled.
+--2024-09-29 17:41:21--  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdaDrg9UkBDPaTH9x87oyTWHjDbsZVB1CI7E1QZ754tD4U_UoQ:https://cdn.imgbin.com/13/0/23/imgbin-knife-game-sword-creative-game-sword-FDmRzKRrw2tjvPjNmNCbMmqSX.jpg
+Resolving encrypted-tbn0.gstatic.com (encrypted-tbn0.gstatic.com)... 142.251.33.110, 2607:f8b0:400a:805::200e
+Connecting to encrypted-tbn0.gstatic.com (encrypted-tbn0.gstatic.com)|142.251.33.110|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10811 (11K) [image/jpeg]
+Saving to: ‘images?q=tbn:ANd9GcRdaDrg9UkBDPaTH9x87oyTWHjDbsZVB1CI7E1QZ754tD4U_UoQ:https:%2F%2Fcdn.imgbin.com%2F13%2F0%2F23%2Fimgbin-knife-game-sword-creative-game-sword-FDmRzKRrw2tjvPjNmNCbMmqSX.jpg’
+
+                 images?q=tbn:ANd   0%[                                                             ]       0  --.-KB/s               images?q=tbn:ANd9GcRdaDrg9UkBDPaT 100%[============================================================>]  10.56K  --.-KB/s    in 0.001s  
+
+2024-09-29 17:41:21 (8.21 MB/s) - ‘images?q=tbn:ANd9GcRdaDrg9UkBDPaTH9x87oyTWHjDbsZVB1CI7E1QZ754tD4U_UoQ:https:%2F%2Fcdn.imgbin.com%2F13%2F0%2F23%2Fimgbin-knife-game-sword-creative-game-sword-FDmRzKRrw2tjvPjNmNCbMmqSX.jpg’ saved [10811/10811]
+
