@@ -31,7 +31,8 @@ permalink: /ideation/
 </div>
 
 <ul style="border: 4px solid green; font-size: 1em; padding: 10px;">
-  <li><strong>Add an NPC:</strong> I plan to add an NPC that you are able to interact with.  </li>
+  <li><strong>Add Levels:</strong> I plan to add different levels that the character is able to progress. Each level will have a differnet background and different features.   </li>
 <li><strong>Add a weapon that the character can use:</strong> I want to add a weapon into the game that the character is able to pick up and use. Maybe later on i might also add a monster the character can attack with the weapon.   </li>
+<li><strong>Add NPC:</strong> I plan to add a NPC that the character is able to interact with. The character might purchase weapons also and maybe select quests.   </li>
 
 </ul> 
