@@ -22,7 +22,7 @@ class GameLevelWater {
     const image_data_water = {
         name: 'water',
         src: image_src_water,
-        pixels: {height: 600, width: 360}
+        pixels: {height: 1080, width: 1920}
     };
 
     // Player 1 sprite data (turtle)
@@ -34,7 +34,7 @@ class GameLevelWater {
         SCALE_FACTOR: TURTLE_SCALE_FACTOR,
         STEP_FACTOR: 1000,
         ANIMATION_RATE: 50,
-        INIT_POSITION: { x: 0, y: height - (height/TURTLE_SCALE_FACTOR) }, 
+        INIT_POSITION: { x: 200, y: height - (height/TURTLE_SCALE_FACTOR) }, 
         pixels: {height: 280, width: 256},
         orientation: {rows: 4, columns: 3 },
         down: {row: 0, start: 0, columns: 3 },
@@ -52,7 +52,7 @@ class GameLevelWater {
         STEP_FACTOR: 400,
         ANIMATION_RATE: 50,
         pixels: {height: 256, width: 384},
-        INIT_POSITION: { x: 0, y: 0 },
+        INIT_POSITION: { x: 200, y: 125 },
         orientation: {rows: 8, columns: 12 },
         down: {row: 0, start: 0, columns: 3 },  // 1st row
         left: {row: 1, start: 0, columns: 3 },  // 2nd row
