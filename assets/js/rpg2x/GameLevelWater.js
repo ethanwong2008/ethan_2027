@@ -20,9 +20,9 @@ class GameLevelWater {
     // Background data
     const image_src_water = path + "/images/rpg/map.png";
     const image_data_water = {
-        name: 'water',
-        src: image_src_water,
-        pixels: {height: 580, width: 1038}
+        name: 'map',
+        src: image_src_map,
+        pixels: {height: 600, width: 360}
     };
 
     // Player 1 sprite data (turtle)
