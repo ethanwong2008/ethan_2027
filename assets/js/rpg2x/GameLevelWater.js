@@ -19,9 +19,9 @@ class GameLevelWater {
 
     // Background data
     const image_src_water = path + "/images/rpg/map.jpg";
-    const image_data_map = {
-        name: 'map',
-        src: image_src_map,
+    const image_data_water = {
+        name: 'water',
+        src: image_src_water,
         pixels: {height: 600, width: 360}
     };
 
