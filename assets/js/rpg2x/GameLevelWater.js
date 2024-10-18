@@ -18,8 +18,8 @@ class GameLevelWater {
     let height = GameEnv.innerHeight;
 
     // Background data
-    const image_src_water = path + "/images/rpg/map.png";
-    const image_data_water = {
+    const image_src_water = path + "/images/rpg/map.jpg";
+    const image_data_map = {
         name: 'map',
         src: image_src_map,
         pixels: {height: 600, width: 360}
