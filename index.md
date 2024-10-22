@@ -1,13 +1,13 @@
 ---
 layout: base
-title: Student Home 
-description: Home Page
+title: Course Descriptions
+description: An overview of Computer Science pathway at Del Norte High School
+author: John Mortensen, Vivian Ni, Bria Gilliam
 image: /images/mario_animation.png
 hide: true
 ---
-My new test xx
 
-<!-- Liquid:  statements -->
+<!-- Liquid:  statements-->
 
 <!-- Include submenu from _includes to top of pages -->
 {% include nav/home.html %}
@@ -191,94 +191,101 @@ My new test xx
 
 </script>
 
+## Investing in Your Technical Future
 
-My journey starts here.
+Computer Science is the Wild Card for all Majors and Careers.
 
-### Markdown Samples [markdown cheatsheet](https://www.markdownguide.org/getting-started/)
+> Explore the Computer Science Pathway at Del Norte High School and invest in your technical skills.
 
->Using markdown from Index.md. We are learning markdown.
+<div style="display: flex; align-items: flex-start;">
 
-- This text below is something called Markdown. This is a heading, Inside of code is called scaffolding
+<table>
+<tr>
+  <td>
+    <div style="flex: 65%; text-align: left;">
+      <p>All Del Norte CompSci classes are designed to provide real-world development experiences.</p>
+      <ul>
+        <li> Project talks between teachers and students</li>
+        <li> Teaching through Tech talks (versus lectures) </li>
+        <li> Peer collaboration using GitHub Issues and Kanban boards </li>
+        <li> Critical thinking while performing iterative coding </li>
+        <li> Creativity and designs in projects, as well as code </li>
+      </ul>
+    </div>
+  </td>
+  <td>
+    <div style="flex: 35%; text-align: center;">
+      <img src="{{site.baseurl}}/images/course-brag/qr.png" alt="QR Code" style="width: 100%; max-width: 300px; height: auto; margin-left: 10px;">
+    </div>
+  </td>
+</tr>
+</table>
 
-```markdown
-## Investing in Your Technical Future XXXYYY
-```
+</div>
 
--This is emphasis
+## Project-based learning
 
-```
+Teacher created projects, project requirements, technical materials, and support.
 
-> Explore the Computer Science Pathway at Del Norte High School and invest in your technical skills. All Del Norte CompSci classes are designed to provide a real-world development experience. Class time includes tech talks (lectures), peer collaboration, communication with teachers, critical thinking while coding, and creativity in projects. Grading is focused on time invested, participation with peers, and engagement in learning.
-```
+> Grades are based on projects, time invested, engagement, learned concepts, participation with peers, and live reviews between student(s) and teacher.
 
-
-- Sample of bullets
-  
-```markdown
-
-- Introduction to concepts and requirements by the teacher
-- Project-based learning with teacher support, performing Agile/Scrum development
-- Coding, frontend, backend, DevOps, version control and algorithmic thinking
+- Performing Agile/Scrum development
+- Coding, frontend, backend, devops, version control, and algorithmic thinking
 - Creativity, research, design, data structures, and utilizing ChatGPT
-- Performing team work, team communication and collaboration, peer reviews/grading
-- Focus on technical communications through project presentations and student led teaching
-- Grade are on projects, learnt concepts, and live reviews between student(s) and teacher
-```
+- Performing teamwork, team communication and collaboration, peer reviews/grading
+- Focus on technical communications through project presentations and student-led teaching
 
-%%html
+> Classroom work time is 3-4 hours per week. Homework expectations are approximately 2-3 hours per week. Homework is scheduled over a Sprint, approximately 2-4 weeks. Time lost is extremely hard to make up as all materials are cumulative.
 
-<h3>HTML: This is a Heading</h3>
-<p>This is a paragraph.</p>
+![ccr]({{site.baseurl}}/images/course-brag/ccr.png)
 
-<a href="https://myapps.classlink.com/home">My Plan</a>
+## Computer Science and Software Engineering (CSSE) 1,2; Grades 9-12
 
-<img src="images/frontend/othani.jpg"/>
+CSSE 1,2 prepares students for the AP Computer Science pathway. This course focuses on teaching the JavaScript programming language, object-oriented programming and inheritance, and developing algorithmic thinking skills.
 
-<img alt="baseball" src="https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_lg_2x/f_auto/primary/xtn2ssecfhdlb9tgonnx" width="100" height="200">
+> Through game development projects, students will engage in engineering skills, learn fundamentals of programming, work with data structures, and foster collaboration skills with their peers. Tech talks will be conducted by teachers to introduce concepts, provide guidance on tools, and support ideas to establish development requirements. By performing development and exploration, this course aims to raise students' awareness of the tremendous capabilities of computers and software engineering skills across various fields.
 
-<a href="a href=">link">link text</a> 
+- Prerequisites: None
+- Meets UC/CSU G requirements
+- CSSE 1,2 receives Articulated College Credit to Mira Costa CC CS 111: "Introduction to Computer Science". Mira Costa CC requires and provides free registration to receive UC college credit.
 
-**Bolded Text in HTML**
-<strong>Bolded Text in HTML</strong>
-*Italic Text in Markdown*
-<i>Italic Text in HTML</i>
-<p> This is a paragraph in HTML markdown does not have these following formats</p>
-<button>some button text</button>
+![csse]({{site.baseurl}}/images/course-brag/csse.png)
 
+## Computer Science Principles 1,2 and Data Structures 1; Grades 10-12
 
-<div style="border: 4px solid blue; padding: 20px;">
-  <p style="border: 4px solid red; font-size: 1.5em; padding: 10px;">Some cool frontend dev</p>
- <button><a href="https://www.perfectgame.org/Players/Playerprofile.aspx?ID=836018">Prefect Game prospect page</a></button>
-</div>
-<br>
-<br>
-<div style="border: 4px solid white; padding: 20px;">
-  <a style="border: 4px solid blue; font-size: 1.5em; padding: 10px; display: block; width: 25%" href="https://www.youtube.com/watch?v=jNZBUGLbvOw">My favorite team the Lakers</a>
-  <a style="border: 4px solid blue; font-size: 1.5em; padding: 10px; display: block; width: 25%" href="https://github.com/ethanwong2008/ethan_2027">My own repository</a>
-  <p style="border: 4px solid red; font-size: 1.5em; padding: 10px;">Hope you enjoyed my page, thanks for taking the time of viewing my page!</p>
-</div>
+Computer Science Principles is designed as a college-level introduction to computer science. The AP Computer Science Principles curriculum is integrated into this course, covering creative development, data, algorithms and programming, computer systems and networks, and the impact of computing.
 
-<!-- first information -->
-<div>
-    <!-- notice how tags can be put INSIDE eachother -->
-    <p>This is the first paragarph of section 1</p>
-    <p>This is the second paragraph of section 1</p>
-</div>
+> Students will work on individual and team projects to build computer systems, write algorithms, analyze for correctness, and engage in discussions about solutions. The course will establish fluency in Python, utilize prerequisite knowledge in JavaScript, and develop fluency in Linux.
 
-<!-- second information -->
-<div>
-    <!-- notice how tags can be put INSIDE eachother -->
-    <p>This is the first paragarph of section 2</p>
-    <p>This is the second paragraph of section 2</p>
-</div>
+- Prerequisites:
+  - Rising 10th graders: Computer Science and Software Engineering (CSSE)
+  - Rising 11th-12th graders: GPA above 3.5 and expectation of experience with JavaScript or other programming languages
+- Meets UC/CSU G requirements, also an alternate for 3rd year D requirement
 
-<!-- from https://github.com/utterance/utterances -->
-<script src="https://utteranc.es/client.js"
-        repo="nighthawkcoders/portfolio_2025"
-        issue-term="title"
-        label="blogpost-comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+> Data Structures 1 serves as the third trimester for the Computer Science Principles course. It is the capstone for non-computer science majors/minors and prepares other students to complete the PUSD computer science pathway. Data Structures 1 focuses on creating computer programs independently and includes AP review and AP project time. The course utilizes JavaScript and Python languages to instruct on the imperative and object-oriented programming paradigms. Topics covered include graphical user interfaces, input and output, lists, dictionaries, databases, searching, sorting, and algorithm analysis.
 
+- Prerequisites: AP Computer Science Principles 1,2
+- Meets UC/CSU G requirements
+
+![csp]({{site.baseurl}}/images/course-brag/csp24.png)
+
+## Computer Science "A" 1,2 and Data Structures 2; Grades 11-12
+
+AP Computer Science A is an in-depth course that focuses on programming, algorithms, and data structures. The AP Computer Science 'A' curriculum is integrated into this course, which covers the Java programming language and topics such as fundamentals of programming, using objects, writing classes, arrays, array lists, 2D arrays, inheritance, and recursion. 
+
+> Students will gain understanding through analysis, coding, and individual and team projects. The course will establish fluency in Java, utilize JavaScript, and work with Linux.
+
+- Prerequisites: a rising 11th or 12th grader
+  - AP Computer Science Principles 1,2 and Data Structures 1
+  - Or a teacher recommendation with an expectation of understanding JavaScript, OOP, Linux, and Data Structures; foundation in team projects, awareness of agile methodology and GitHub source control.
+- Meets UC/CSU G requirements, also an alternate for 4th year C requirement
+
+> Data Structures 2 serves as the third trimester for the Computer Science "A" course and is the capstone for the Del Norte Computer Science Pathway. It is designed as a companion to AP Computer Science 'A'. This course focuses on basic data structures, algorithms, and includes AP preparation for College Board multiple-choice questions (MCQs) and free-response questions (FRQs). The course utilizes the JavaScript and Java languages to instruct on object-oriented programming paradigm programming and design. Topics covered include searching, sorting, hashing, algorithm analysis, collections, lists, stacks, queues, trees, sets, dictionaries, and graphs. The course concludes with team-oriented project-based learning and a final project.
+
+- Prerequisites: AP Computer Science ‘A’ 1,2
+- Meets UC/CSU G requirements
+- Data Structures 1,2 receives Articulated College Credit to Mira Costa CC for "CS 113: Basic Data Structures and Algorithms". Mira Costa CC requires and provides free registration to receive UC college credit.
+
+![csa]({{site.baseurl}}/images/course-brag/csa24.png)
+
+![foundation]({{site.baseurl}}/images/course-brag/foundation.png)
