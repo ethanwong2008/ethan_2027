@@ -9,7 +9,6 @@ hide: true
 
 ## Home
 
-
 This blog contains my journey into Coding.
 
 ### Development Environment
@@ -26,7 +25,7 @@ This blog contains my journey into Coding.
     <a href="https://vscode.dev/">
         <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode">
     </a>
-        <a href="https://github.com/features/copilot">
+    <a href="https://github.com/features/copilot">
         <img src="https://coreteka.com/wp-content/uploads/2023/03/%D0%A1opilot-by-GitHub.jpg" width="100" height="28.5" /> 
     </a>
 </div>
@@ -39,22 +38,22 @@ This blog contains my journey into Coding.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
-        <div style="background-color: red; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: red; color: black; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Snake Game
         </div>
     </a>
     <a href="{{site.baseurl}}/rpg/" style="text-decoration: none;">
-        <div style="background-color: orange; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: orange; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             RPG v0.0
         </div>
     </a>
     <a href="{{site.baseurl}}/rpg/dot1" style="text-decoration: none;">
-                <div style="background-color: #FFD700; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #FFD700; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             RPG v0.1
         </div>
     </a>
     <a href="{{site.baseurl}}/rpg/dot2" style="text-decoration: none;">
-        <div style="background-color: green; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: green; color: black; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             RPG v0.2
         </div>
     </a>
@@ -68,17 +67,24 @@ This blog contains my journey into Coding.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
-        <div style="background-color: blue; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: blue; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Variables I/O
         </div>
     </a>
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/data-types/" style="text-decoration: none;">
-        <div style="background-color: purple; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: purple; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Data Types
         </div>
     </a>
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/hacks" style="text-decoration: none;">
-        <div style="background-color: pink; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: pink; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Completed Hacks
         </div>
+    </a>
+</div>
+
+<style>
+    a div:hover {
+        transform: scale(1.05);
+    }
+</style>
