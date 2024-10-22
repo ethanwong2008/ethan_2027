@@ -1,4 +1,3 @@
-
 ---
 layout: base
 title: Ethan Wong Home 
