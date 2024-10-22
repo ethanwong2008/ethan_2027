@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Cason Pollak Home 
+title: Ethan Wong Home 
 description: Home Page
 hide: true
 ---
