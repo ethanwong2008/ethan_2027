@@ -86,6 +86,11 @@ This blog contains my journey into Coding.
             For Loops
         </div>
     </a>
+     <a href="{{site.baseurl}}/game/intro/json/" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            JSON Objects
+        </div>
+    </a>
 </div>
 
 <style>
