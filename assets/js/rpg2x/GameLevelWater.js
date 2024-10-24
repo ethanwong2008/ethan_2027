@@ -26,7 +26,7 @@ class GameLevelWater {
     };
 
     // Player 1 sprite data (turtle)
-    const LUIGI_SCALE_FACTOR = 10;
+    const sprite_SCALE_FACTOR = 10;
     const sprite_src_sprite = path + "/images/rpg/sprite.png";
     const sprite_data_sprite = {
         name: 'sprite',
@@ -76,7 +76,7 @@ class GameLevelWater {
     // List of objects defnitions for this level
     this.objects = [
       { class: Background, data: image_data_water },
-      { class: PlayerOne, data: sprite_data_sprite },
+      { class: PlayerOne, data: sprite_data_turtle },
       { class: PlayerTwo, data: sprite_data_fish },
       { class: NPC, data: sprite_data_frog }
     ];
