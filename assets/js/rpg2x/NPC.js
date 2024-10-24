@@ -94,15 +94,26 @@ class NPC extends Player {
                 var distance = Math.sqrt(
                     Math.pow(player.position.x - npc.position.x, 2) + Math.pow(player.position.y - npc.position.y, 2)
                 );
-                // The distance is less than 100 pixels
-                if (player != npc && distance <= 100) {
-                    names.push(player.spriteData.name);
+
+                // First check for when the player is within 35 units distance
+                if (distance < 35) {
+                    this.handleResponse("Come closer my warrior!");
                 }
-            });
-            // Join all player names inside the proximity
-            if (names.length > 0) {
-                this.handleResponse(`Hello, ${names.join(', ')}`);
+                // If the distance is greater than 35 but less than 100, show the other message
+                else if (distance >= 35 && distance < 100) {
+                    this.handleResponse("Congratulations! You now are worthy!");
+                }
+                if (player !== npc) {
+                // If the player is more than 100 pixels away
+                if (distance > 100) {
+                    this.handleResponse("Is that a adventurer I see?");
+                }
+                // If the player is within 100 pixels, greet them with their name
+                else if (distance <= 100) {
+                    names.push(player.spriteData.name);  // Collect player names within proximity
+                }
             }
+            });
         }
     }
 }
