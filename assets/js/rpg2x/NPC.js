@@ -96,16 +96,16 @@ class NPC extends Player {
                 );
 
                 // First check for when the player is within 35 units distance
-                if (distance < 35) {
+                if (distance < 10) {
                     this.handleResponse("Come closer my warrior!");
                 }
                 // If the distance is greater than 35 but less than 100, show the other message
-                else if (distance >= 35 && distance < 50) {
+                else if (distance >= 10 && distance < 25) {
                     this.handleResponse("Congratulations! You now are worthy!");
                 }
                 if (player !== npc) {
                 // If the player is more than 100 pixels away
-                if (distance > 50) {
+                if (distance > 25) {
                     this.handleResponse("Is that a adventurer I see?");
                 }
                 // If the player is within 100 pixels, greet them with their name
