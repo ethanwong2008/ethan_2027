@@ -27,14 +27,14 @@ class GameLevelWater {
 
     // Player 1 sprite data (turtle)
     const LUIGI_SCALE_FACTOR = 10;
-    const sprite_src_luigi = path + "/images/rpg/sprite.png";
-    const sprite_data_luigi = {
-        name: 'luigi',
-        src: sprite_src_luigi,
-        SCALE_FACTOR: LUIGI_SCALE_FACTOR,
+    const sprite_src_sprite = path + "/images/rpg/sprite.png";
+    const sprite_data_sprite = {
+        name: 'sprite',
+        src: sprite_src_sprite,
+        SCALE_FACTOR: SPRITE_SCALE_FACTOR,
         STEP_FACTOR: 1000,
         ANIMATION_RATE: 50,
-        INIT_POSITION: { x: 0, y: height - (height/LUIGI_SCALE_FACTOR) }, 
+        INIT_POSITION: { x: 0, y: height - (height/SPRITE_SCALE_FACTOR) }, 
         pixels: {height: 72, width: 48},
         orientation: {rows: 4, columns: 3 },
         down: {row: 0, start: 0, columns: 3 },
@@ -76,7 +76,7 @@ class GameLevelWater {
     // List of objects defnitions for this level
     this.objects = [
       { class: Background, data: image_data_water },
-      { class: PlayerOne, data: sprite_data_turtle },
+      { class: PlayerOne, data: sprite_data_sprite },
       { class: PlayerTwo, data: sprite_data_fish },
       { class: NPC, data: sprite_data_frog }
     ];
