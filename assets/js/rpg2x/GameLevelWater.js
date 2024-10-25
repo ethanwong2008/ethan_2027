@@ -4,9 +4,7 @@ import GameEnv from './GameEnv.js';
 import Background from './Background.js';
 import PlayerOne from './PlayerOne.js';
 import PlayerTwo from './PlayerTwo.js';
-import NPC from './NPC.js';
-//import Goomba from './EnemyGoomba.js';
-//import Coin from './Coin.js';
+import NpcFrog from './NpcFrog.js';
 
 
 class GameLevelWater {
@@ -19,7 +17,7 @@ class GameLevelWater {
     let height = GameEnv.innerHeight;
 
     // Background data
-    const image_src_water = path + "/images/rpg/map.png";
+    const image_src_water = path + "/images/rpg/water.png";
     const image_data_water = {
         name: 'water',
         src: image_src_water,
@@ -27,16 +25,16 @@ class GameLevelWater {
     };
 
     // Player 1 sprite data (turtle)
-    const LUIGI_SCALE_FACTOR = 10;
-    const sprite_src_luigi = path + "/images/rpg/luigi.png";
-    const sprite_data_luigi = {
-        name: 'luigi',
-        src: sprite_src_luigi,
-        SCALE_FACTOR: LUIGI_SCALE_FACTOR,
+    const TURTLE_SCALE_FACTOR = 10;
+    const sprite_src_turtle = path + "/images/rpg/turtle.png";
+    const sprite_data_turtle = {
+        name: 'turtle',
+        src: sprite_src_turtle,
+        SCALE_FACTOR: TURTLE_SCALE_FACTOR,
         STEP_FACTOR: 1000,
         ANIMATION_RATE: 50,
-        INIT_POSITION: { x: 0, y: height - (height/LUIGI_SCALE_FACTOR) }, 
-        pixels: {height: 72, width: 48},
+        INIT_POSITION: { x: 0, y: height - (height/TURTLE_SCALE_FACTOR) }, 
+        pixels: {height: 280, width: 256},
         orientation: {rows: 4, columns: 3 },
         down: {row: 0, start: 0, columns: 3 },
         left: {row: 1, start: 0, columns: 3 },
@@ -56,9 +54,9 @@ class GameLevelWater {
         INIT_POSITION: { x: 0, y: 0 },
         orientation: {rows: 8, columns: 12 },
         down: {row: 0, start: 0, columns: 3 },  // 1st row
-        left: {row: 2, start: 0, columns: 3 },  // 2nd row
-        right: {row: 3, start: 0, columns: 3 }, // 3rd row
-        up: {row: 1, start: 0, columns: 3 },    // 4th row
+        left: {row: 1, start: 0, columns: 3 },  // 2nd row
+        right: {row: 2, start: 0, columns: 3 }, // 3rd row
+        up: {row: 3, start: 0, columns: 3 },    // 4th row
     };
 
     // NPC sprite data (frog)
@@ -77,9 +75,9 @@ class GameLevelWater {
     // List of objects defnitions for this level
     this.objects = [
       { class: Background, data: image_data_water },
-      { class: PlayerOne, data: sprite_data_luigi },
+      { class: PlayerOne, data: sprite_data_turtle },
       { class: PlayerTwo, data: sprite_data_fish },
-      { class: NPC, data: sprite_data_frog }
+      { class: NpcFrog, data: sprite_data_frog }
     ];
   }
 
