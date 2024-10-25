@@ -1,3 +1,4 @@
+
 // To build GameLevels, each contains GameObjects from below imports
 import GameEnv from './GameEnv.js';
 import Background from './Background.js';
@@ -18,11 +19,11 @@ class GameLevelWater {
     let height = GameEnv.innerHeight;
 
     // Background data
-    const image_src_water = path + "/images/rpg/map.jpg";
+    const image_src_water = path + "/images/rpg/map.png";
     const image_data_water = {
         name: 'water',
         src: image_src_water,
-        pixels: {height: 1080, width: 1920}
+        pixels: {height: 580, width: 1038}
     };
 
     // Player 1 sprite data (turtle)
@@ -52,12 +53,12 @@ class GameLevelWater {
         STEP_FACTOR: 400,
         ANIMATION_RATE: 50,
         pixels: {height: 256, width: 384},
-        INIT_POSITION: { x: 200, y: 125 },
+        INIT_POSITION: { x: 0, y: 0 },
         orientation: {rows: 8, columns: 12 },
         down: {row: 0, start: 0, columns: 3 },  // 1st row
-        left: {row: 1, start: 0, columns: 3 },  // 2nd row
-        right: {row: 2, start: 0, columns: 3 }, // 3rd row
-        up: {row: 3, start: 0, columns: 3 },    // 4th row
+        left: {row: 2, start: 0, columns: 3 },  // 2nd row
+        right: {row: 3, start: 0, columns: 3 }, // 3rd row
+        up: {row: 1, start: 0, columns: 3 },    // 4th row
     };
 
     // NPC sprite data (frog)
@@ -76,7 +77,7 @@ class GameLevelWater {
     // List of objects defnitions for this level
     this.objects = [
       { class: Background, data: image_data_water },
-      { class: PlayerOne, data: sprite_data_turtle },
+      { class: PlayerOne, data: sprite_data_luigi },
       { class: PlayerTwo, data: sprite_data_fish },
       { class: NPC, data: sprite_data_frog }
     ];
