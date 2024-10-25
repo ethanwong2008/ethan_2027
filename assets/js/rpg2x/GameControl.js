@@ -29,7 +29,7 @@ const GameControl = {
         // Prepare game objects for the level
         for (let object of gameLevel.objects) {
             if (!object.data) object.data = {};
-            GameEnv.gameObjects.push(new object.class(object.data));
+            new object.class(object.data) 
         }
         // Start the game loop
         this.gameLoop();

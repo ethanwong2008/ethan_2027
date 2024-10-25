@@ -1,7 +1,7 @@
-import Player from "./Player.js";
 import GameEnv from "./GameEnv.js";
+import GameObject from "./GameObject.js";
 
-class NPC extends Player {
+class NpcFrog extends GameObject {
     constructor(data = null) {
         super(data);
         this.alertTimeout = null;
@@ -84,7 +84,7 @@ class NPC extends Player {
      */
     checkProximityToNPC() {
         // Filter all Player objects from the game environment
-        var players = GameEnv.gameObjects.filter(obj => obj instanceof Player);
+        var players = GameEnv.gameObjects.filter(obj => obj instanceof GameObject);
         var npc = this;
         var names = [];
 
@@ -94,31 +94,20 @@ class NPC extends Player {
                 var distance = Math.sqrt(
                     Math.pow(player.position.x - npc.position.x, 2) + Math.pow(player.position.y - npc.position.y, 2)
                 );
-
-                // First check for when the player is within 35 units distance
-                if (distance < 10) {
-                    this.handleResponse("Come closer my warrior!");
+                // The distance is less than 100 pixels
+                if (player != npc && distance <= 100) {
+                    names.push(player.spriteData.name);
                 }
-                // If the distance is greater than 35 but less than 100, show the other message
-                else if (distance >= 10 && distance < 25) {
-                    this.handleResponse("Congratulations! You now are worthy!");
-                }
-                if (player !== npc) {
-                // If the player is more than 100 pixels away
-                if (distance > 25) {
-                    this.handleResponse("Is that a adventurer I see?");
-                }
-                // If the player is within 100 pixels, greet them with their name
-                else if (distance <= 100) {
-                    names.push(player.spriteData.name);  // Collect player names within proximity
-                }
-            }
             });
+            // Join all player names inside the proximity
+            if (names.length > 0) {
+                this.handleResponse(`Hello, ${names.join(', ')}`);
+            }
         }
     }
 }
 
-export default NPC;
+export default NpcFrog;
 
 /**
  * Show the custom alert with the given message.
