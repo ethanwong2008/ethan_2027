@@ -26,15 +26,15 @@ class GameLevelWater {
     };
 
     // Player 1 sprite data (turtle)
-    const sprite_SCALE_FACTOR = 10;
-    const sprite_src_sprite = path + "/images/rpg/sprite.png";
-    const sprite_data_sprite = {
-        name: 'sprite',
-        src: sprite_src_sprite,
-        SCALE_FACTOR: SPRITE_SCALE_FACTOR,
+    const LUIGI_SCALE_FACTOR = 10;
+    const sprite_src_luigi = path + "/images/rpg/luigi.png";
+    const sprite_data_luigi = {
+        name: 'luigi',
+        src: sprite_src_luigi,
+        SCALE_FACTOR: LUIGI_SCALE_FACTOR,
         STEP_FACTOR: 1000,
         ANIMATION_RATE: 50,
-        INIT_POSITION: { x: 0, y: height - (height/SPRITE_SCALE_FACTOR) }, 
+        INIT_POSITION: { x: 0, y: height - (height/LUIGI_SCALE_FACTOR) }, 
         pixels: {height: 72, width: 48},
         orientation: {rows: 4, columns: 3 },
         down: {row: 0, start: 0, columns: 3 },
