@@ -26,27 +26,22 @@ permalink: /rpg/
 
 </style>
 
-<canvas id='gameCanvas'></canvas>
+<div id="gameContainer">
+    <canvas id='gameCanvas'></canvas>
+</div>
+
 <div id="custom-alert" class="custom-alert">
     <button onclick="closeCustomAlert()" id="custom-alert-message"></button>
 </div>
 
 <script type="module">
-    import GameControl from '{{site.baseurl}}/assets/js/rpg2x/GameControl.js';
+    import GameControl from '{{site.baseurl}}/assets/js/rpg/latest/GameControl.js';
 
     const path = "{{site.baseurl}}";
 
     // Start game engine
     GameControl.start(path);
-
-    // Background music
-    const bgMusic = new Audio('{{site.baseurl}}/assets/audio/backgroundmusic.mp3');
-    bgMusic.loop = true;  // Set music to loop
-    bgMusic.volume = 0.5; // Optional: Set volume to 50%
-    bgMusic.play();       // Play the music when the game starts
-
 </script>
-
 
     
 
