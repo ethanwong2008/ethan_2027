@@ -1,7 +1,7 @@
+import Player from "./Player.js";
 import GameEnv from "./GameEnv.js";
-import GameObject from "./GameObject.js";
 
-class NpcFrog extends GameObject {
+class NPC extends Player {
     constructor(data = null) {
         super(data);
         this.alertTimeout = null;
@@ -84,7 +84,7 @@ class NpcFrog extends GameObject {
      */
     checkProximityToNPC() {
         // Filter all Player objects from the game environment
-        var players = GameEnv.gameObjects.filter(obj => obj instanceof GameObject);
+        var players = GameEnv.gameObjects.filter(obj => obj instanceof Player);
         var npc = this;
         var names = [];
 
@@ -107,7 +107,7 @@ class NpcFrog extends GameObject {
     }
 }
 
-export default NpcFrog;
+export default NPC;
 
 /**
  * Show the custom alert with the given message.
