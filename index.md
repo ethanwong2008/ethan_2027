@@ -44,17 +44,17 @@ This blog contains my journey into Coding.
     </a>
     <a href="{{site.baseurl}}/rpg/" style="text-decoration: none;">
         <div style="background-color: #2196F3; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
-            RPG v0.0
+            RPG v0.1
         </div>
     </a>
     <a href="{{site.baseurl}}/rpg/dot1" style="text-decoration: none;">
         <div style="background-color: #FFC107; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
-            RPG v0.1
+            RPG v0.2
         </div>
     </a>
-    <a href="{{site.baseurl}}/rpg/dot2" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/rpg/dot3" style="text-decoration: none;">
         <div style="background-color: #FF5722; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
-            RPG v0.2
+            RPG v0.3
         </div>
     </a>
 </div>
