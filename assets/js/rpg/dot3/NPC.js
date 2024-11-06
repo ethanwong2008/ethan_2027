@@ -8,11 +8,9 @@ class NPC extends Player {
 
         // Create a black overlay with message, hidden initially
         this.createBlackOverlay();
+
     }
 
-    /**
-     * Create a full-screen black overlay with a message in the center.
-     */
     createBlackOverlay() {
         this.blackOverlay = document.createElement('div');
         this.blackOverlay.style.position = 'fixed';
@@ -32,7 +30,7 @@ class NPC extends Player {
         this.overlayMessage.style.color = 'white';
         this.overlayMessage.style.fontSize = '2em';
         this.overlayMessage.style.textAlign = 'center';
-        this.overlayMessage.textContent = "You are strong! Accept any quest!";
+        this.overlayMessage.textContent = "You are strong! Accept my quest!";
         this.blackOverlay.appendChild(this.overlayMessage);
 
         document.body.appendChild(this.blackOverlay);
@@ -68,6 +66,12 @@ class NPC extends Player {
      * 
      * @param {Object} event - The event object containing the key that was pressed.
      * @param {string} event.key - The key that was pressed.
+     * 
+     * Keys handled:
+     * - 'e': Proximity interaction for Player 1
+     * - 'u': Proximity interaction for Player 2
+     * 
+     * This method calls checkProximityToNPC() if either 'e' or 'u' is pressed.
      */
     handleKeyDown({ key }) {
         switch (key) {
@@ -88,7 +92,9 @@ class NPC extends Player {
      * @param {string} event.key - The key that was released.
      */
     handleKeyUp({ key }) {
+        // Check if the released key is 'e' or 'u'
         if (key === 'e' || key === 'u') {
+            // Clear the alert timeout to cancel the alert
             if (this.alertTimeout) {
                 clearTimeout(this.alertTimeout);
                 this.alertTimeout = null;
@@ -104,10 +110,12 @@ class NPC extends Player {
      * @param {string} message - The message to be displayed in the alert.
      */
     handleResponse(message) {
+        // Clear any existing alert timeout
         if (this.alertTimeout) {
             clearTimeout(this.alertTimeout);
         }
 
+        // Set a new alert timeout
         this.alertTimeout = setTimeout(() => {
             showCustomAlert(message);
         }, 0);
@@ -119,32 +127,43 @@ class NPC extends Player {
      * If players are within the specified distance, their names are collected and a response is generated.
      */
     checkProximityToNPC() {
-        const players = GameEnv.gameObjects.filter(obj => obj instanceof Player);
-        const npc = this;
+        // Filter all Player objects from the game environment
+        var players = GameEnv.gameObjects.filter(obj => obj instanceof Player);
+        var npc = this;
 
-        players.forEach(player => {
-            const distance = Math.sqrt(
-                Math.pow(player.position.x - npc.position.x, 2) + 
-                Math.pow(player.position.y - npc.position.y, 2)
-            );
+        if (players.length > 0 && npc) {
+            players.forEach(player => {
+                // The Euclidean distance between two points in a 2D space
+                var distance = Math.sqrt(
+                    Math.pow(player.position.x - npc.position.x, 2) + Math.pow(player.position.y - npc.position.y, 2)
+                );
 
-            // If player is within 35 units, turn screen black and show message
-            if (distance < 35) {
-                this.showBlackOverlay();
-            } else {
-                this.hideBlackOverlay(); // Hide overlay if out of range
+                // First check for when the player is within 35 units distance
+                if (distance < 35) {
+                    this.handleResponse("Come closer adventurer!");
+                }
+                // If the distance is greater than 35 but less than 100, show the other message
+                else if (distance >= 35 && distance < 100) {
+                    this.handleResponse("Come so I can see you!");
+                }
+                if (distance >= 20 && distance <100 ) {
+                    this.showBlackOverlay();
+                }
+                else if ( distance <35) {
+                    this.hideBlackOverlay(); // Hide overlay if out of range
+                }
+                if (player !== npc) {
+                // If the player is more than 100 pixels away
+                if (distance > 100) {
+                    this.handleResponse("I see. You are the strongest I have ever seen.");
+                }
+                // If the player is within 100 pixels, greet them with their name
+                else if (distance <= 100) {
+                    names.push(player.spriteData.name);  // Collect player names within proximity
+                }
             }
-
-            // Additional response handling based on distance
-            if (distance < 35) {
-                this.handleResponse("Come closer adventurer!");
-            } 
-            else if (distance >= 35 && distance < 100) {
-                this.handleResponse("Come so I can see you!");
-            } else {
-                this.handleResponse("I see. You are the strongest I have ever seen.");
-            }
-        });
+            });
+        }
     }
 }
 
