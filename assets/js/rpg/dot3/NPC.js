@@ -6,9 +6,8 @@ class NPC extends Player {
         super(data);
         this.alertTimeout = null;
 
-        // Create a black overlay with message, hidden initially
+        // Create a black overlay with message and quest list, hidden initially
         this.createBlackOverlay();
-
     }
 
     createBlackOverlay() {
@@ -25,13 +24,37 @@ class NPC extends Player {
         this.blackOverlay.style.alignItems = 'center';
         this.blackOverlay.style.transition = 'opacity 0.5s';
 
-        // Add message to overlay
-        this.overlayMessage = document.createElement('div');
-        this.overlayMessage.style.color = 'white';
-        this.overlayMessage.style.fontSize = '2em';
-        this.overlayMessage.style.textAlign = 'center';
-        this.overlayMessage.textContent = "You are strong! Accept my quest!";
-        this.blackOverlay.appendChild(this.overlayMessage);
+        // Add message and quest list to overlay
+        const messageContainer = document.createElement('div');
+        messageContainer.style.color = 'white';
+        messageContainer.style.fontSize = '2em';
+        messageContainer.style.textAlign = 'center';
+
+        // Main message
+        const mainMessage = document.createElement('p');
+        mainMessage.textContent = "You are strong! Accept my quest!";
+        messageContainer.appendChild(mainMessage);
+
+        // Quest list
+        const questList = document.createElement('ul');
+        questList.style.listStyleType = 'decimal';
+        questList.style.fontSize = '1.5em';
+
+        const quests = [
+            "Collect magical herbs.",
+            "Defeat 10 goblins.",
+            "Find a lost key."
+        ];
+
+        // Populate the quest list
+        quests.forEach(quest => {
+            const listItem = document.createElement('li');
+            listItem.textContent = quest;
+            questList.appendChild(listItem);
+        });
+
+        messageContainer.appendChild(questList);
+        this.blackOverlay.appendChild(messageContainer);
 
         document.body.appendChild(this.blackOverlay);
     }
@@ -140,16 +163,12 @@ class NPC extends Player {
 
                 // First check for when the player is within 35 units distance
                 if (distance < 35) {
-                    this.handleResponse("Come closer adventurer!");
+                    this.handleResponse("Come closer adventurer so I can get a better look!");
                 }
-                // If the distance is greater than 35 but less than 100, show the other message
-                else if (distance >= 35 && distance < 100) {
-                    this.handleResponse("Come so I can see you!");
-                }
-                if (distance >= 20 && distance <100 ) {
+                if (distance >= 35 && distance < 100 ) {
                     this.showBlackOverlay();
                 }
-                else if ( distance <35) {
+                else if ( distance < 35) {
                     this.hideBlackOverlay(); // Hide overlay if out of range
                 }
                 if (player !== npc) {
