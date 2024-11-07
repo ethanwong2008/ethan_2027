@@ -47,7 +47,7 @@ This blog contains my journey into Coding.
             RPG v0.1
         </div>
     </a>
-    <a href="{{site.baseurl}}/rpg2x/dot2" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/rpg2x/latest/" style="text-decoration: none;">
         <div style="background-color: #FFC107; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             RPG v0.2
         </div>
@@ -66,7 +66,7 @@ This blog contains my journey into Coding.
 > Here is my preparation for college topics, click to review my blogs
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variable" style="text-decoration: none;">
         <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Variables I/O
         </div>
@@ -95,17 +95,17 @@ This blog contains my journey into Coding.
 > This is the lesson that I taught with my classmates Aria and Cason 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables/lesson/" style="text-decoration: none;">
         <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Variables
         </div>
     </a>
-    <a href="{{site.baseurl}}/csse/javascript/fundamentals/data-types/" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables/hacks/" style="text-decoration: none;">
         <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Popcorn Hacks
         </div>
     </a>
-    <a href="{{site.baseurl}}/csse/javascript/fundamentals/for-loops/" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables/hw/" style="text-decoration: none;">
         <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Variable Homeworks
         </div>
@@ -119,11 +119,6 @@ This blog contains my journey into Coding.
 > This is all the homeworks for the lessons
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/Project/2024-10-28-variables_hw.ipynb" style="text-decoration: none;">
-        <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
-            Variables(Our Hw)
-        </div>
-    </a>
     <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/MathExpressions/2024-10-31-mathhomework.ipynb" style="text-decoration: none;">
         <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Math Expressions
@@ -145,8 +140,18 @@ This blog contains my journey into Coding.
     </a>
 </div>
 
+<script src="https://utteranc.es/client.js"
+        repo="ethanwong2008/ethan_2027"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 <style>
     a div:hover {
         transform: scale(1.05);
     }
+    
 </style>
