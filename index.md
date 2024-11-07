@@ -16,7 +16,7 @@ This blog contains my journey into Coding.
 > Coding starts with tools, explore these tools and procedures with a click.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="https://github.com/casonpollak/cason_2025">
+    <a href="https://github.com/ethanwong2008/ethan_2027">
         <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
     </a>
     <a href="https://casonpollak.github.io/cason_2025/">
@@ -84,6 +84,63 @@ This blog contains my journey into Coding.
      <a href="{{site.baseurl}}/game/intro/json/" style="text-decoration: none;">
         <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             JSON Objects
+        </div>
+    </a>
+</div>
+
+<br>
+
+## Lessons
+
+> This is the lesson that I taught with my classmates Aria and Cason 
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
+        <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Variables
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/data-types/" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Popcorn Hacks
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/for-loops/" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Variable Homeworks
+        </div>
+    </a>
+</div>
+
+<br>
+
+## Homeworks
+
+> This is all the homeworks for the lessons
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
+        <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Variables
+        </div>
+    </a>
+    <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/MathExpressions/2024-10-31-mathhomework.ipynb" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Math Expressions
+        </div>
+    </a>
+    <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/conditionals/2024-11-10-conditinals_hacks.ipynb" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Conditionals
+        </div>
+    <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/Nested_conditionals/nested_conditionalshw.ipynb" style="text-decoration: none;">
+        <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Nested Conditionals
+        </div>
+    </a>
+    <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/classes/2024-11-04-classes-hw.ipynb" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Classes
         </div>
     </a>
 </div>
