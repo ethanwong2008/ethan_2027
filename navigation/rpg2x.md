@@ -1,7 +1,7 @@
 ---
 layout: base
-title: RPG v0.2
-permalink: /rpg2x/
+title: RPG v0.3
+permalink: /rpg2x/dot2
 ---
 
 <style>
@@ -35,7 +35,7 @@ permalink: /rpg2x/
 </div>
 
 <script type="module">
-    import GameControl from '{{site.baseurl}}/assets/js/rpg/latest/GameControl.js';
+    import GameControl from '{{site.baseurl}}/assets/js/rpg2x/dot2/GameControl.js';
 
     const path = "{{site.baseurl}}";
 
