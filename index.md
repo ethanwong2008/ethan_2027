@@ -95,7 +95,7 @@ This blog contains my journey into Coding.
 > This is the lesson that I taught with my classmates Aria and Cason 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/Project/2024-10-28-variables_hw.ipynb" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
         <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Variables
         </div>
@@ -119,7 +119,7 @@ This blog contains my journey into Coding.
 > This is all the homeworks for the lessons
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
+    <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/Project/2024-10-28-variables_hw.ipynb" style="text-decoration: none;">
         <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Variables
         </div>
