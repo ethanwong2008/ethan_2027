@@ -100,16 +100,6 @@ This blog contains my journey into Coding.
             Variables
         </div>
     </a>
-    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables/hacks/" style="text-decoration: none;">
-        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
-            Popcorn Hacks
-        </div>
-    </a>
-    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables/hw/" style="text-decoration: none;">
-        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
-            Variable Homeworks
-        </div>
-    </a>
 </div>
 
 <br>
@@ -119,21 +109,21 @@ This blog contains my journey into Coding.
 > This is all the homeworks for the lessons
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/MathExpressions/2024-10-31-mathhomework.ipynb" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/MathExpressions/hw/" style="text-decoration: none;">
         <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Math Expressions
         </div>
     </a>
-    <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/conditionals/2024-11-10-conditinals_hacks.ipynb" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/conditionals/hacks" style="text-decoration: none;">
         <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Conditionals
         </div>
-    <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/Nested_conditionals/nested_conditionalshw.ipynb" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csp/big-idea/p4/3-7-2" style="text-decoration: none;">
         <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Nested Conditionals
         </div>
     </a>
-    <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint3/Lessons/classes/2024-11-04-classes-hw.ipynb" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/hw/" style="text-decoration: none;">
         <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Classes
         </div>
