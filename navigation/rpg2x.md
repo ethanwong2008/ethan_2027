@@ -1,7 +1,7 @@
 ---
 layout: base
 title: RPG v0.2
-permalink: /rpg2x/latest/
+permalink: /rpg2x/latest
 ---
 
 <style>
