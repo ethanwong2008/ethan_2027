@@ -6,6 +6,8 @@ description: Home Page
 
 ## My Gaming and Coding Interests
 
+![Brawl Stars Logo](https://banner2.cleanpng.com/20190416/jhh/kisspng-brawl-stars-video-games-beat-em-up-mobile-game-el-primo-wiki-informaes-skins-e-ataques-1713898413380.webp)
+
 ## Here’s a brief summary of Brawl Stars:
 
 -Developer: Supercell (creator of Clash of Clans, Clash Royale)
