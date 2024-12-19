@@ -130,6 +130,34 @@ This blog contains my journey into Coding.
     </a>
 </div>
 
+<br>
+
+## Jupyter Notebooks
+
+> This is all my Sprint objectives
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="https://github.com/ethanwong2008/ethan_2027/tree/main/_notebooks/Foundation/Sprint1" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Sprint1
+        </div>
+    </a>
+    <a href="https://github.com/ethanwong2008/ethan_2027/tree/main/_notebooks/Foundation/Sprint2" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Sprint2
+        </div>
+    <a href="https://github.com/ethanwong2008/ethan_2027/tree/main/_notebooks/Foundation/Sprint3/Lessons" style="text-decoration: none;">
+        <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Sprint3
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/hw/" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Sprint4
+        </div>
+    </a>
+</div>
+
 <script src="https://utteranc.es/client.js"
         repo="ethanwong2008/ethan_2027"
         issue-term="title"
