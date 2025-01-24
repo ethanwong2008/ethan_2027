@@ -118,6 +118,7 @@ This blog contains my journey into Coding.
         <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Conditionals
         </div>
+    </a>
     <a href="{{site.baseurl}}/csp/big-idea/p4/3-7-2/" style="text-decoration: none;">
         <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Nested Conditionals
@@ -154,6 +155,11 @@ This blog contains my journey into Coding.
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/hw/" style="text-decoration: none;">
         <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Sprint4
+        </div>
+    </a>
+        <a href="https://github.com/ethanwong2008/ethan_2027/blob/main/_notebooks/Foundation/Sprint6/Journal.ipynb" style="text-decoration: none;">
+        <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Sprint6
         </div>
     </a>
 </div>
