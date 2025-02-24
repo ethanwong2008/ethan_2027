@@ -66,7 +66,7 @@ This blog contains my journey into Coding.
 > Here is my preparation for college topics, click to review my blogs
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variable" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables/" style="text-decoration: none;">
         <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             Variables I/O
         </div>
