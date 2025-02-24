@@ -64,6 +64,40 @@ This blog contains my journey into Coding.
 ### College Articulation
 
 > Here is my preparation for college topics, click to review my blogs
+>
+> Platformer Game Progress
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/csse/javascript/final/journal/blog/" style="text-decoration: none;">
+        <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Game Blog
+        </div>
+    </a>
+</div>
+
+>
+> Control Structures
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/iteration/hw/" style="text-decoration: none;">
+        <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Iterations
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/conditionals/hacks/" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Conditionals
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csp/big-idea/p4/3-7-2/" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Nested Conditionals
+        </div>
+    </a>
+</div>
+
+>
+> Data Types
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables/" style="text-decoration: none;">
@@ -84,6 +118,27 @@ This blog contains my journey into Coding.
      <a href="{{site.baseurl}}/game/intro/json/" style="text-decoration: none;">
         <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
             JSON Objects
+        </div>
+    </a>
+</div>
+
+>
+> Operators
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/csse/lessons/strings/2024-10-30-strings-lesson-4-2.ipynb/" style="text-decoration: none;">
+        <div style="background-color: #9C27B0; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Strings
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/MathExpressions/hw/" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Math
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/Lessons/Booleans/p2" style="text-decoration: none;">
+        <div style="background-color: #3F51B5; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); transition: transform 0.3s;">
+            Booleans
         </div>
     </a>
 </div>
